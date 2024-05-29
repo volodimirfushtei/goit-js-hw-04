@@ -1,8 +1,8 @@
 function isEnoughCapacity(products, containerSize) {
-  let sumKeys = 0;
+  let sumvalues = 0;
   for (let i in products) {
-    sumKeys += products[i];
-    if (sumKeys <= containerSize) {
+    sumvalues += products[i];
+    if (sumvalues <= containerSize) {
       return "true";
     } else {
       return "false";
